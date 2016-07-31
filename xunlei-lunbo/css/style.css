@@ -1,0 +1,71 @@
+*{margin:0; padding:0; border:none;}
+body{
+	background: black;
+}
+.wrap{
+	width:750px; 
+	position:relative; 
+	margin:100px 550px;
+}
+
+.playImg{
+	width:750px; 
+	height:350px; 
+	position:relative;
+}
+
+.playImg img{
+	position:absolute; 
+	top:0; 
+	left:0;
+}
+
+.bar{
+	width:750px; 
+	position:absolute; 
+	top:305px; 
+	left:0; 
+	z-index:1;
+}
+
+.bar div{
+	width:750px; 
+	height:45px; 
+	background:rgba(0,0,0,0.5); 
+	position:absolute; 
+	top:0; 
+	left:0;
+}
+
+.bar img{
+	float:left; 
+	padding:3px 0 0 10px;
+}
+
+.bar span{
+	float:left; 
+	font-family:"微软雅黑"; 
+	color:white; 
+	font-size:18px; 
+	line-height:45px;
+}
+
+.nav{
+	width:750px; 
+	height:54px;
+}
+
+.nav img{
+	width:71px; 
+	height:48px; 
+	float:left; 
+	margin:4px 1px 0px 1px;
+}
+
+.trangle{
+	width:75px; height:57px; 
+	position:absolute; 
+	top:350px; 
+	left:0;
+	z-index:-1;
+}
